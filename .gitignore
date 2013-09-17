@@ -1,0 +1,10 @@
+node_modules
+dist
+.tmp
+
+www/app/config.js
+
+www/bower_components
+www/index.html
+www/js/app.js
+www/css/main.css

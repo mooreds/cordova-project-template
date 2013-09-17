@@ -1,0 +1,23 @@
+{
+  "curly": true,
+  "eqeqeq": true,
+  "strict": false,
+  "immed": false,
+  "forin": true,
+  "latedef": false,
+  "newcap": true,
+  "noarg": true,
+  "sub": true,
+  "undef": true,
+  "boss": true,
+  "eqnull": true,
+  "browser": true,
+  "node": true,
+  "expr": true,
+  "globals": {
+    "Modernizr": false,
+    "define": false,
+    "require": false,
+    "google": false
+  }
+}

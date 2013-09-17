@@ -1,0 +1,11 @@
+machine:
+  node:
+    version:
+      0.10.0
+dependencies:
+  post:
+    - cp www/app/example.config.js www/app/config.js
+    - bower install
+test:
+  override:
+    - grunt circleci
