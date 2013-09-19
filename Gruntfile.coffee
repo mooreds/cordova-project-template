@@ -50,7 +50,7 @@ config =
   cssmin:
     compress:
       files:
-        'www/css/nerds.css': ['www/css/nerds.css']
+        'www/css/main.css': ['www/css/main.css']
       options:
         keepSpecialComments: 0
 
