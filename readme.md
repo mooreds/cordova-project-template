@@ -10,7 +10,7 @@ Install [apache cordova](http://cordova.apache.org/) with `npm install -g cordov
 
 Generate a project using `cordova create`. See a list of other commands with `cordova help`
 
-Copy Makefile, .gitignore, .circle.yml, .bowerrc, Grunfile.coffee into the project root, making changes as desired.
+Copy all top-level files (Makefile, .gitignore, .circle.yml, .bowerrc, Grunfile.coffee, etc) into the project root, making changes as desired.
 
 Copy hooks from the `cordova` directory into the project's `.cordova` folder. The hooks will automatically add .gitignore files to platforms when they're added, run grunt tasks automatically before `cordova prepare` and remove excess build files after `cordova prepare`.
 
