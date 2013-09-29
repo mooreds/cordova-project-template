@@ -23,6 +23,6 @@
     "grunt-contrib-cssmin": "~0.6.0",
     "grunt-contrib-jshint": "~0.4.3",
     "grunt-requirejs": "~0.4.0",
-    "grunt-mocha-phantomjs": "~0.2.7",
+    "grunt-mocha-phantomjs": "~0.2.7"
   }
 }
