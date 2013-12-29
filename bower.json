@@ -1,0 +1,19 @@
+{
+  "name": "cordova-project-template",
+  "version": "0.0.1",
+  "main": "css/index.css",
+  "ignore": [
+    ".jshintrc",
+    "**/*.txt"
+  ],
+  "dependencies": {
+    "d3": "~3.2.7",
+    "less.js": "~1.4.2",
+    "requirejs": "~2.1.8",
+    "backbone": "~1.1.0",
+    "lodash": "~2.1.0",
+    "handlebars": "1.0.0"
+  },
+  "devDependencies": {
+  }
+}
