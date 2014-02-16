@@ -4,7 +4,7 @@ This project includes some extra tooling to for making Cordova project using [Ba
 
 Always consult the [cordova documentation](http://cordova.apache.org/docs/en/3.0.0/) and use up to date versions :)
 
-This project focuses on mac users who want to develop for ios and android. 
+This project focuses on mac users who want to develop for ios and android.  Make sure to customize your Makefile before you run `make install` if you are targeting different platforms.
 
 ## Usage
 
