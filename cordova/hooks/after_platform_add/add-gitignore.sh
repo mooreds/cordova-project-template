@@ -4,5 +4,5 @@ BASEDIR=$1
 
 for d in "$BASEDIR/platforms/"*
 do
-  cp ".gitignore" "$d/.gitignore"
+  cp "$BASEDIR/hooks/after_platform_add/.gitignore" "$d/.gitignore"
 done
