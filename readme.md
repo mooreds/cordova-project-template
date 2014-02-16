@@ -16,7 +16,7 @@ Copy all top-level files (Makefile, .gitignore, .circle.yml, .bowerrc, Grunfile.
 
 Copy hooks from the `cordova` directory into the project's `.cordova` folder. The hooks will automatically add .gitignore files to platforms when they're added, run grunt tasks automatically before `cordova prepare` and remove excess build files after `cordova prepare`.
 
-Copy `www` directory for a boilerplate Backbone app and test suite set up with Require.js, along with HTML and Less compilation and image minification provided by Grunt.
+Copy `www` directory for a boilerplate Backbone app and test suite set up with Require.js, along with HTML and Less compilation and image minification provided by Grunt.  You will want to remove the default www/index.html file.
 
 ## Documentation for Makefile, Grunt server and Building for Devices
 
