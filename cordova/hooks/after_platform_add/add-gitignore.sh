@@ -1,6 +1,8 @@
 #!/bin/bash
 
-for d in "../../../platforms/"*
+BASEDIR=$1
+
+for d in "$BASEDIR/platforms/"*
 do
   cp ".gitignore" "$d/.gitignore"
 done
