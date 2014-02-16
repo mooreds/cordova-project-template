@@ -14,7 +14,7 @@ Generate a project using `cordova create`. See a list of other commands with `co
 
 Copy all top-level files (Makefile, .gitignore, .circle.yml, .bowerrc, Grunfile.coffee, etc) into the project root, making changes as desired.
 
-Copy hooks from the `cordova` directory into the project's `.cordova` folder. The hooks will automatically add .gitignore files to platforms when they're added, run grunt tasks automatically before `cordova prepare` and remove excess build files after `cordova prepare`.
+Copy hooks from the `cordova` directory into the project's `.cordova` folder (or the `hooks` directory under the project root if you are using cordova 3.3.1-0.3.1 or above. The hooks will automatically add .gitignore files to platforms when they're added, run grunt tasks automatically before `cordova prepare` and remove excess build files after `cordova prepare`.
 
 Copy `www` directory for a boilerplate Backbone app and test suite set up with Require.js, along with HTML and Less compilation and image minification provided by Grunt.  You will want to remove the default www/index.html file.
 
