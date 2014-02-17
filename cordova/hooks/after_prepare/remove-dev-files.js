@@ -9,17 +9,8 @@ var rootdir = process.argv[2];
 var platforms = process.env.CORDOVA_PLATFORMS.split(",");
 var subdirs = ["app","bower_components", "spec","less"];
 
-platforms.forEach(function(platform) {
-  subdirs.forEach(function(subdir) {
-    var p = path.join(rootdir,"platforms",platform,"www",subdir);
-    // console.log("path: "+p);
-    deleteFolderRecursive(p);
-  });
-});
-
-
 // from http://stackoverflow.com/questions/12627586/is-node-js-rmdir-recursive-will-it-work-on-non-empty-directories
-deleteFolderRecursive = function(path) {
+var deleteFolderRecursive = function(path) {
     var files = [];
     if( fs.existsSync(path) ) {
         files = fs.readdirSync(path);
@@ -34,3 +25,13 @@ deleteFolderRecursive = function(path) {
         fs.rmdirSync(path);
     }
 };
+
+platforms.forEach(function(platform) {
+  subdirs.forEach(function(subdir) {
+    var p = path.join(rootdir,"platforms",platform,"www",subdir);
+    // console.log("path: "+p);
+    deleteFolderRecursive(p);
+  });
+});
+
+

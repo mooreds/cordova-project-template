@@ -4,11 +4,11 @@
 
 var fs = require('fs');
 var path = require('path');
-var childProcess = require('child_process'),
+var childProcess = require('child_process');
 
 var rootdir = process.argv[2];
 
-var gruntfile = path.join(rootdir,"node_modules",".bin",".grunt");
+var gruntfile = path.join(rootdir,"node_modules",".bin","grunt");
 childProcess.exec(gruntfile + " --force", function (error, stdout, stderr) {
    if (error) {
      console.log(error.stack);
